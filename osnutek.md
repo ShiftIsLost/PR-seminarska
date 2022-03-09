@@ -8,3 +8,5 @@ Za vir podatkov bomo predvsem uporabljali državni statistični urad, ki javno o
 https://pxweb.stat.si/SiStatData/pxweb/sl/Data/-/0764721S.PX
 https://pxweb.stat.si/SiStatData/pxweb/sl/Data/-/0700995S.PX
 https://pxweb.stat.si/SiStatData/pxweb/sl/Data/-/0762004S.PX
+https://pxweb.stat.si/SiStat/sl/Podrocja/Index/192/izobrazevanje
+https://repozitorij.uni-lj.si/Statistika.php?lang=slv
