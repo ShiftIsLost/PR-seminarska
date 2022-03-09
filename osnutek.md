@@ -1,6 +1,6 @@
 # IZOBRAZBA V SLOVENIJI
 
-Vprašanje, ki smo si ga postavili je kako izobrazba vpliva na kakovost življenja. Zanima nas tudi kako se je pomembnost višje izobrazbe spremenila skozi leta. Ali postaja srednješolska izobrazba vedno manj efektivna pri pridobivanju zaposlitve. Kakšna je korelacija med stopnjo izobrazbe in spolom? Ali je drastična razlika stopnje izobrazbe glede na regijo?
+Zanima nas kako se je pomembnost višje izobrazbe spremenila skozi leta. Kakšna je razlika v akademskih dosežkih med spoloma? Ali je drastična razlika stopnje izobrazbe glede na regijo? Kater spol je bolj prisoten na različnih strokovnih področjih? S kakšnimi tematitikami se ukvarjajo ženske, s kakšnimi moški?
 
 Za vir podatkov bomo predvsem uporabljali državni statistični urad, ki javno objavi vse relavantne podatke, ki jih potrebujemo.
 
