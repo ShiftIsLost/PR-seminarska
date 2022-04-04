@@ -1,2 +1,2 @@
-# Izobrazba v sloveniji
+# IZOBRAZBA V SLOVENIJI
 Skupina: PR21MMKJP
