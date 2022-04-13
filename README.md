@@ -1,6 +1,6 @@
 # RAZLIKE MED SPOLOMA NA AKADEMSKEM PODROČJU V SLOVENIJI
 Skupina: PR21MMKJP
-Člani:Peter Savnik, Jan Hribar, Marcel Loboda, Kristian Babič, Mitja Volk
+Člani: Peter Savnik, Jan Hribar, Marcel Loboda, Kristian Babič, Mitja Volk
 Seminarska naloga raziskuje razlike v izobrazbi in brezposelnosti, ter prisotnost spolov na določenih akademskih področjih.
 
 ## Podatki
