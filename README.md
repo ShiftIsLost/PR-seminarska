@@ -1,11 +1,15 @@
 # RAZLIKE MED SPOLOMA NA AKADEMSKEM PODROČJU V SLOVENIJI
 Skupina: PR21MMKJP
-
+Člani:Peter Savnik, Jan Hribar, Marcel Loboda, Kristian Babič, Mitja Volk
 Seminarska naloga raziskuje razlike v izobrazbi in brezposelnosti, ter prisotnost spolov na določenih akademskih področjih.
 
 ## Podatki
 Večino podatkov smo pridobili iz statističnega urada(https://pxweb.stat.si/SiStat/sl). To so podatki o brezposelnosti, zaposlitvenem statusu, delovno aktivnem prebivalstvu, izobrazbi po občinah in vrsti izobrazbe. Problem s podatki iz statističnega urada je, da niso pravilno urejeni. Največji problem predstavlja časovno porazdelitev, ki je v stolpcih pomešana z nekim odcekom meritve(npr. starost 15-24 in leto 2010). To bo potrebno rešiti na nek eleganten način, ki bi bile lahko več dimenzionalne tabele. 
 Preostale podatke o objavljenih diplomah smo pridobili iz nacionalnega portala odprte znanosti(https://www.openscience.si/OpenData.aspx). Kjer smo dobili podatke o akademskih člankih, doktoratih, magisterijih in podobno. Problem pri teh podatkih je da nimamo podanega spola avtorja in področja dela. Ugibanje spola se lahko lotimo tako da ga probamo ugotiviti iz imena. Za področje se pa lahko lotimo na več načinov. Eden je da pogledamo ustanovo na kateri je bilo delo objavljeno, ampak pri tem nastane težava z natančnostjo. Drug pa da delu dodelimo temo glede na njegove ključne besede.
+
+### Težave s podatki
+Pri podatkih, ki so bili razporejeni po občinah so se pojavili prazni vnosi, ki so bili označeni z "-". Vnosi so bili vznačeni tako saj nekatere občine še niso obstajale takrat zato v njih ni podatkov. V podatkih o delovno aktivnem prebivalstvu se je za leto 2019 pojavila napaka v podatkih ki je bila označena z "z" pri Osilnici in Kostelu.
+Pri podatkih o strokovnih delih so se pojavili problemi z uvozu podatkov. 240 vrstic je javilo napako da je bilo podano več atributov kot navedeno. Ko smo to pogledali od blizu smo ugotovili da se v uvodu pojavi znak "|", ki je tudi znak ki ločuje elemente vrstice med seboj. Nato ko smo probali združiti tebelo o delih in avtorjih je vrnilo prazno tabelo. Nekatera dela niso imela veljavnega ID in ID je bil tipa string v eni tabeli v drugi pa int. To smo rešili tako da smo odstranili dela z neveljavnim ID in njihov tip spremenili na int. 
 
 ## Postopek obdelave podatkov
 Vprašanje 1. Razlike glede na izobraženost po občinah. Katera občina je najbolj izobražena(največ maturantov diplom itd.)? Kaj se zgodi če to normaliziramo glede na prebivalstvo v občini(x maturantov na y prebivalcev)? Obrazloži ugotovitve(npr. ali so občine z manj izobraženim prebivalstvom bolj kmetijsko usmerjene). Primerjaj najbolj in najmanj izobraženo občino skozi čas(rolling avg).
