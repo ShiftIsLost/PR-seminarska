@@ -1,4 +1,4 @@
-# IZOBRAZBA V SLOVENIJI
+# RAZLIKE MED SPOLOMA NA AKADEMSKEM PODROČJU V SLOVENIJI
 Skupina: PR21MMKJP
 
 Seminarska naloga raziskuje razlike v izobrazbi in brezposelnosti, ter prisotnost spolov na določenih akademskih področjih.
