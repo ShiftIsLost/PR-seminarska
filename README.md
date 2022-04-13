@@ -12,7 +12,7 @@ Vprašanje 1. Razlike glede na izobraženost po občinah. Katera občina je najb
 Vprašanje 2. Kakšna je razlika v akademskih dosežkih med spoloma? Ali je kateri od spolov v zaostanku(vizualiziraj)? Kakšna je razlika med spoloma na posamezni stopnji izobrazbe? (še prikaz po regijah/čas)
 Vprašanje 3. Ureditev meta podatkov o strokovnih delih. Ugibanje spola in področje dela. Primerjava spola pa posameznih področjih del.
 
-### Razlike izobraženosti po občinah
+### Razlike izobrazbe po občinah
 Vprašanja katera občina je najbolj izobražena sem se lotil tako, da sem pridobil podatke o izobrazbi delovno aktivnega prebivalstva Slovenskih občin med letoma 2005 in 2021.
 Na podlagi teh podatkov sem ustvaril grafe, ki so mi pokazali kakšni so deleži delovno aktivnega prebivalstva z visokošolsko, srednješolsko oziroma osnovnošolsko izobrazbo v vseh Slovenskih občinah.
 Iz grafov je razvidno, da je občina z največjim deležem visokošolskega prebivalstva dolga leta bil Trzin, v zadnjih letih pa je to Kranjska Gora. Blizu je tudi Ljubljana. 
@@ -23,3 +23,6 @@ Občina z največjim deležem prebivalstva z osnovnošolsko izobrazbo je bil vsa
 Iz podatkov sem ustvaril tudi grafe, ki prikazujejo trend deleža prebivalstva z določeno izobrazbo v petih izbranih Slovenskih mestih (Ljubljana, Maribor, Koper, Celje, Bled). 
 Iz dobljenih grafov je razvidno, da delež prebivalstva z osnovnošolsko prebivalstvo v teh mestih pada, delež z visokošolsko izobrazbo pa raste. 
 Delež prebivalstva z srednješolsko izobrazbo je v Kopru ter Celju ostal dokaj konstanten, v Bledu, Ljubljani in Maribor pa je upadel.
+
+### Klasifikacija spola avtorja in tipa dela
+Avtorji strokovnih del so podani v obliki Name, Surname, MetadataID, AuthorID. Ti podatki poveyujejo avtorja do strokovnega dela s pomočjo MetadataID. Za naš namen je bilo potrebni iz imen pridobiti spol. Tega smo se lotili najprej tako, da smo naložili vsa slovenskla ženska in moška imena in jih primerjali z imeni avtorjev. Vendar je bilo preveč neznanih imen. Nato smo uporabili data set ki je narejen iz Facebook data leak 2019 in dostopen kot python knjižniva. Na ta način smo dobili boljše rezultate. Najboljše rezultate smo dobili ko smo združili oba načina klasifikacije. Ostalo je še okoli 500 nedefiniranih imen od 8000. Problem pri ostalih imenih je da so v njih napake ali je pa ime tako redko da se ne pojavi v nobeni od baz.
